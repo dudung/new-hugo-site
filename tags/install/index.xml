@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>install on new hugo site</title>
+    <link>https://dudung.github.io/new-hugo-site/tags/install/</link>
+    <description>Recent content in install on new hugo site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 Mar 2022 21:10:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/new-hugo-site/tags/install/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>install hugo windows 10</title>
+      <link>https://dudung.github.io/new-hugo-site/0000/</link>
+      <pubDate>Fri, 18 Mar 2022 21:10:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/new-hugo-site/0000/</guid>
+      <description>Tulisan ini dibuat sebelum instalasi Hugo [1] dilakukan, sehingga untuk melihat hasilnya saat disunting menggunakan Notepad++ [2] digunakan Markdown Viewer [3] pada Google Chrome [4]. Proses instalasi Hugo dilakukan mengikuti langkah-langkah yang diberikan untuk sistem operasi Windows [5]. Saat ini digunakan sistem operasi Microsoft Windows 10 Home versi 10.0.19042 Build 19042.
+download Program Hugo yang dapat dijalankan (exe) dan terimpan dalam berkas terkompresi (zip) dapat diperoleh dari halaman Hugo Releases. Versi terakhir adalah v0.</description>
+    </item>
+    
+  </channel>
+</rss>

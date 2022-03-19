@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>host hugo site on github | new hugo site</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Proses deploy situs yang dibuat dengan Hugo sebagai suatu proyek GitHub Pages dapat dilakukan secara otomatis dengan GitHub Action Workflow [1]. Dapat pula dilakukan secara manual dengan selalu memperbarui berkas-berkas pada folder public dan mengaturnya pada setting GitHub Pages atau melakukan otomatisasi semuanya [2]. Dapat juga dilakukan dengan bantuan Bash script untuk memperbarui, akan tetapi hasilnya agar dapat dilihat perlu dilakukan clone, instal Hugo, dan dibaca secara lokal [3]. Terdapat pula cara membuat branch gh-pages yang merupakan orphan branch [4].">
+    <meta name="generator" content="Hugo 0.95.0" />
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/new-hugo-site/ananke/css/main.min.css" >
+
+
+
+    
+    
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="host hugo site on github" />
+<meta property="og:description" content="Proses deploy situs yang dibuat dengan Hugo sebagai suatu proyek GitHub Pages dapat dilakukan secara otomatis dengan GitHub Action Workflow [1]. Dapat pula dilakukan secara manual dengan selalu memperbarui berkas-berkas pada folder public dan mengaturnya pada setting GitHub Pages atau melakukan otomatisasi semuanya [2]. Dapat juga dilakukan dengan bantuan Bash script untuk memperbarui, akan tetapi hasilnya agar dapat dilihat perlu dilakukan clone, instal Hugo, dan dibaca secara lokal [3]. Terdapat pula cara membuat branch gh-pages yang merupakan orphan branch [4]." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://dudung.github.io/new-hugo-site/0002/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-03-19T08:30:00+07:00" />
+<meta property="article:modified_time" content="2022-03-19T21:13:00+07:00" />
+
+<meta itemprop="name" content="host hugo site on github">
+<meta itemprop="description" content="Proses deploy situs yang dibuat dengan Hugo sebagai suatu proyek GitHub Pages dapat dilakukan secara otomatis dengan GitHub Action Workflow [1]. Dapat pula dilakukan secara manual dengan selalu memperbarui berkas-berkas pada folder public dan mengaturnya pada setting GitHub Pages atau melakukan otomatisasi semuanya [2]. Dapat juga dilakukan dengan bantuan Bash script untuk memperbarui, akan tetapi hasilnya agar dapat dilihat perlu dilakukan clone, instal Hugo, dan dibaca secara lokal [3]. Terdapat pula cara membuat branch gh-pages yang merupakan orphan branch [4]."><meta itemprop="datePublished" content="2022-03-19T08:30:00+07:00" />
+<meta itemprop="dateModified" content="2022-03-19T21:13:00+07:00" />
+<meta itemprop="wordCount" content="437">
+<meta itemprop="keywords" content="hugo,github,host," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="host hugo site on github"/>
+<meta name="twitter:description" content="Proses deploy situs yang dibuat dengan Hugo sebagai suatu proyek GitHub Pages dapat dilakukan secara otomatis dengan GitHub Action Workflow [1]. Dapat pula dilakukan secara manual dengan selalu memperbarui berkas-berkas pada folder public dan mengaturnya pada setting GitHub Pages atau melakukan otomatisasi semuanya [2]. Dapat juga dilakukan dengan bantuan Bash script untuk memperbarui, akan tetapi hasilnya agar dapat dilihat perlu dilakukan clone, instal Hugo, dan dibaca secara lokal [3]. Terdapat pula cara membuat branch gh-pages yang merupakan orphan branch [4]."/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/new-hugo-site/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        new hugo site
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        POSTS
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">host hugo site on github</h1>
+      
+      <p class="tracked">
+          By <strong>
+          
+              viridi
+          
+          </strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2022-03-19T21:13:00+07:00">Sat, 19 Mar 2022</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Proses deploy situs yang dibuat dengan Hugo sebagai suatu proyek GitHub Pages dapat dilakukan secara otomatis dengan GitHub Action Workflow [<a href="#r01">1</a>]. Dapat pula dilakukan secara manual dengan selalu memperbarui berkas-berkas pada folder <code>public</code> dan mengaturnya pada setting GitHub Pages atau melakukan otomatisasi semuanya [<a href="#r02">2</a>]. Dapat juga dilakukan dengan bantuan Bash script untuk memperbarui, akan tetapi hasilnya agar dapat dilihat perlu dilakukan clone, instal Hugo, dan dibaca secara lokal [<a href="#r03">3</a>]. Terdapat pula cara membuat branch <code>gh-pages</code> yang merupakan orphan branch [<a href="#r04">4</a>]. Proses host situs yang dibuat dengan Hugo di GitHub tidak terlalu jelas, terutama saat melakukan proses build untuk branch <code>gh-pages</code> [<a href="#r01">1</a>] dan juga telah dicoba bila branch <code>gh-pages</code> merupakan orphan branch [<a href="#r04">4</a>], yang sayangnya keduanya tetap tidak berhasil. Antara tidak terjadi proses build dan deploy atau terjadi tetapi tidak ada halaman yang muncul.</p>
+<h2 id="extended-version">extended version</h2>
+<p>Saat melakukan proses build situs secara lokal diperoleh pesan kesalahan</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-batch" data-lang="batch"><span style="display:flex;"><span>L:\home\new-hugo-site<span style="color:#75715e">&gt;hugo</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">Start</span> building sites …
+</span></span><span style="display:flex;"><span>hugo v0.95.0-9F2E76AF windows/amd64 BuildDate=2022-03-16T14:20:19Z VendorInfo=gohugoio
+</span></span><span style="display:flex;"><span>Error: Error building site: TOCSS: failed to transform <span style="color:#e6db74">&#34;ananke/css/main.css&#34;</span> (text/css). Check your Hugo installation; you need the extended version to build SCSS/SASS.: this feature is not available in your current Hugo version, see https://goo.gl/YMrWcn for more information
+</span></span><span style="display:flex;"><span>Total in 3281 ms
+</span></span></code></pre></div><p>yang dapat dipecahkan dengan mengunduh versi extended yang disarankan dari <a href="https://github.com/gohugoio/hugo/releases/download/v0.95.0/hugo_extended_0.95.0_Windows-64bit.zip">https://github.com/gohugoio/hugo/releases/download/v0.95.0/hugo_extended_0.95.0_Windows-64bit.zip</a></p>
+<p>dan diinstal. Setelah itu pesan kesalahan di atas akan hilang.</p>
+<h2 id="running-the-server">running the server</h2>
+<p>Server Hugo dapat dijalankan untuk membantun situs secara lokal</p>
+<pre tabindex="0"><code>L:\home\new-hugo-site&gt;hugo server -D
+Start building sites …
+hugo v0.95.0-9F2E76AF+extended windows/amd64 BuildDate=2022-03-16T14:20:19Z VendorInfo=gohugoio
+
+                   | EN
+-------------------+-----
+  Pages            | 22
+  Paginator pages  |  0
+  Non-page files   |  0
+  Static files     |  1
+  Processed images |  0
+  Aliases          |  1
+  Sitemaps         |  1
+  Cleaned          |  0
+
+Built in 393 ms
+Watching for changes in L:\home\new-hugo-site\{archetypes,content,themes}
+Watching for config changes in L:\home\new-hugo-site\config.toml, L:\home\new-hugo-site\themes\ananke\config.yaml
+Environment: &#34;development&#34;
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:1313/new-hugo-site/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+</code></pre><p>dengan</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#a6e22e">baseURL</span> = <span style="color:#e6db74">&#39;https://dudung.github.io/new-hugo-site/&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">languageCode</span> = <span style="color:#e6db74">&#39;en-us&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">title</span> = <span style="color:#e6db74">&#39;new hugo site&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">theme</span> = <span style="color:#e6db74">&#39;ananke&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">frontmatter</span>]
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">date</span> = [<span style="color:#e6db74">&#39;lastmod&#39;</span>, <span style="color:#e6db74">&#39;publishDate&#39;</span>, <span style="color:#e6db74">&#39;date&#39;</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">params</span>]
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">date_format</span> = <span style="color:#e6db74">&#34;Mon, 02 Jan 2006&#34;</span>
+</span></span></code></pre></div><p>adalah isi berkas <code>config.toml</code>. Situs yang dibuat Hugo dapat diakses di <a href="http://localhost:1313/new-hugo-site/">http://localhost:1313/new-hugo-site/</a>.</p>
+<h2 id="build-the-site">build the site</h2>
+<p>Proses build situs Hugo dilakukan dengan</p>
+<h2 id="notes">notes</h2>
+<ol>
+<li><!-- raw HTML omitted --><!-- raw HTML omitted -->&ldquo;Host on GitHub&rdquo;, Hugo, 2 Feb 2022, url <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">https://gohugo.io/hosting-and-deployment/hosting-on-github/</a> [20220319].</li>
+<li><!-- raw HTML omitted --><!-- raw HTML omitted -->Carlos Pons, &ldquo;Create and host a blog with Hugo and GitHub Pages in less than 30 minutes&rdquo;, my tech rahmblings, 21 Jun 2020, url <a href="https://www.mytechramblings.com/posts/create-a-website-with-hugo-and-gh/">https://www.mytechramblings.com/posts/create-a-website-with-hugo-and-gh/</a> [20220319].</li>
+<li><!-- raw HTML omitted --><!-- raw HTML omitted -->Ahmad Muhardian, &ldquo;Cara Hosting/Deploy Hugo di Github&rdquo;, Petani Kode, 13 Mar 2022, url <a href="https://www.petanikode.com/hugo-hosting-github/">https://www.petanikode.com/hugo-hosting-github/</a> [20220319].</li>
+<li><!-- raw HTML omitted --><!-- raw HTML omitted -->Jia Fu Low, &ldquo;Create gh-pages branch in existing repo&rdquo;, Github, 9 Jul 2020, url <a href="https://jiafulow.github.io/blog/2020/07/09/create-gh-pages-branch-in-existing-repo/">https://jiafulow.github.io/blog/2020/07/09/create-gh-pages-branch-in-existing-repo/</a> [20220319].</li>
+</ol>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/new-hugo-site/tags/hugo" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">hugo</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/new-hugo-site/tags/github" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">github</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/new-hugo-site/tags/host" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">host</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/new-hugo-site/0000/">install hugo windows 10</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/new-hugo-site/0001/">create new site hugo</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://dudung.github.io/new-hugo-site/" >
+    &copy;  new hugo site 2022 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div></div>
+  </div>
+</footer>
+
+  </body>
+</html>

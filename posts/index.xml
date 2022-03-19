@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on new hugo site</title>
+    <link>https://dudung.github.io/new-hugo-site/posts/</link>
+    <description>Recent content in Posts on new hugo site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 19 Mar 2022 21:13:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/new-hugo-site/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>host hugo site on github</title>
+      <link>https://dudung.github.io/new-hugo-site/0002/</link>
+      <pubDate>Sat, 19 Mar 2022 21:13:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/new-hugo-site/0002/</guid>
+      <description>Proses deploy situs yang dibuat dengan Hugo sebagai suatu proyek GitHub Pages dapat dilakukan secara otomatis dengan GitHub Action Workflow [1]. Dapat pula dilakukan secara manual dengan selalu memperbarui berkas-berkas pada folder public dan mengaturnya pada setting GitHub Pages atau melakukan otomatisasi semuanya [2]. Dapat juga dilakukan dengan bantuan Bash script untuk memperbarui, akan tetapi hasilnya agar dapat dilihat perlu dilakukan clone, instal Hugo, dan dibaca secara lokal [3]. Terdapat pula cara membuat branch gh-pages yang merupakan orphan branch [4].</description>
+    </item>
+    
+    <item>
+      <title>create new site hugo</title>
+      <link>https://dudung.github.io/new-hugo-site/0001/</link>
+      <pubDate>Sat, 19 Mar 2022 07:31:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/new-hugo-site/0001/</guid>
+      <description>Tulisan ini dibuat setelah instalasi Hugo [1] berhasil dilakukan. Proses membuat situs baru mengikuti informasi yang ada [2].
+version Versi Hugo yang terinstal dapat diperoleh dengan cara berikut ini,
+L:\home&amp;gt;hugo version hugo v0.95.0-9F2E76AF windows/amd64 BuildDate=2022-03-16T14:20:19Z VendorInfo=gohugoio yang memberikan informasi v0.95.0.
+create a new site Suatu situs baru dibuat dengan cara berikut ini.
+L:\home&amp;gt;hugo new site new-hugo-site Congratulations! Your new Hugo site is created in L:\home\new-hugo-site.  Just a few more steps and you&amp;#39;re ready to go:  1.</description>
+    </item>
+    
+    <item>
+      <title>install hugo windows 10</title>
+      <link>https://dudung.github.io/new-hugo-site/0000/</link>
+      <pubDate>Fri, 18 Mar 2022 21:10:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/new-hugo-site/0000/</guid>
+      <description>Tulisan ini dibuat sebelum instalasi Hugo [1] dilakukan, sehingga untuk melihat hasilnya saat disunting menggunakan Notepad++ [2] digunakan Markdown Viewer [3] pada Google Chrome [4]. Proses instalasi Hugo dilakukan mengikuti langkah-langkah yang diberikan untuk sistem operasi Windows [5]. Saat ini digunakan sistem operasi Microsoft Windows 10 Home versi 10.0.19042 Build 19042.
+download Program Hugo yang dapat dijalankan (exe) dan terimpan dalam berkas terkompresi (zip) dapat diperoleh dari halaman Hugo Releases. Versi terakhir adalah v0.</description>
+    </item>
+    
+  </channel>
+</rss>
