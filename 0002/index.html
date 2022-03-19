@@ -6,7 +6,7 @@
     
     <title>host hugo site on github | new hugo site</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="Proses deploy situs yang dibuat dengan Hugo sebagai suatu proyek GitHub Pages dapat dilakukan secara otomatis dengan GitHub Action Workflow [1]. Dapat pula dilakukan secara manual dengan selalu memperbarui berkas-berkas pada folder public dan mengaturnya pada setting GitHub Pages atau melakukan otomatisasi semuanya [2]. Dapat juga dilakukan dengan bantuan Bash script untuk memperbarui, akan tetapi hasilnya agar dapat dilihat perlu dilakukan clone, instal Hugo, dan dibaca secara lokal [3]. Terdapat pula cara membuat branch gh-pages yang merupakan orphan branch [4].">
+    <meta name="description" content="Proses deploy situs yang dibuat dengan Hugo sebagai suatu proyek GitHub Pages dapat dilakukan secara otomatis dengan GitHub Action Workflow [1]. Dapat pula dilakukan secara manual dengan selalu memperbarui berkas-berkas pada folder public dan mengaturnya pada setting GitHub Pages atau melakukan otomatisasi sepenuhnya [2]. Dapat juga dilakukan dengan bantuan Bash script untuk memperbarui, akan tetapi hasilnya agar dapat dilihat perlu dilakukan clone repo suatu blog, instal Hugo, dan isi blog dibaca secara lokal [3].">
     <meta name="generator" content="Hugo 0.94.2" />
     
     
@@ -30,19 +30,19 @@
     
     
     <meta property="og:title" content="host hugo site on github" />
-<meta property="og:description" content="Proses deploy situs yang dibuat dengan Hugo sebagai suatu proyek GitHub Pages dapat dilakukan secara otomatis dengan GitHub Action Workflow [1]. Dapat pula dilakukan secara manual dengan selalu memperbarui berkas-berkas pada folder public dan mengaturnya pada setting GitHub Pages atau melakukan otomatisasi semuanya [2]. Dapat juga dilakukan dengan bantuan Bash script untuk memperbarui, akan tetapi hasilnya agar dapat dilihat perlu dilakukan clone, instal Hugo, dan dibaca secara lokal [3]. Terdapat pula cara membuat branch gh-pages yang merupakan orphan branch [4]." />
+<meta property="og:description" content="Proses deploy situs yang dibuat dengan Hugo sebagai suatu proyek GitHub Pages dapat dilakukan secara otomatis dengan GitHub Action Workflow [1]. Dapat pula dilakukan secara manual dengan selalu memperbarui berkas-berkas pada folder public dan mengaturnya pada setting GitHub Pages atau melakukan otomatisasi sepenuhnya [2]. Dapat juga dilakukan dengan bantuan Bash script untuk memperbarui, akan tetapi hasilnya agar dapat dilihat perlu dilakukan clone repo suatu blog, instal Hugo, dan isi blog dibaca secara lokal [3]." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://dudung.github.io/new-hugo-site/0002/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-03-19T08:30:00+07:00" />
-<meta property="article:modified_time" content="2022-03-19T22:50:00+07:00" />
+<meta property="article:modified_time" content="2022-03-20T05:52:00+07:00" />
 
 <meta itemprop="name" content="host hugo site on github">
-<meta itemprop="description" content="Proses deploy situs yang dibuat dengan Hugo sebagai suatu proyek GitHub Pages dapat dilakukan secara otomatis dengan GitHub Action Workflow [1]. Dapat pula dilakukan secara manual dengan selalu memperbarui berkas-berkas pada folder public dan mengaturnya pada setting GitHub Pages atau melakukan otomatisasi semuanya [2]. Dapat juga dilakukan dengan bantuan Bash script untuk memperbarui, akan tetapi hasilnya agar dapat dilihat perlu dilakukan clone, instal Hugo, dan dibaca secara lokal [3]. Terdapat pula cara membuat branch gh-pages yang merupakan orphan branch [4]."><meta itemprop="datePublished" content="2022-03-19T08:30:00+07:00" />
-<meta itemprop="dateModified" content="2022-03-19T22:50:00+07:00" />
-<meta itemprop="wordCount" content="2278">
+<meta itemprop="description" content="Proses deploy situs yang dibuat dengan Hugo sebagai suatu proyek GitHub Pages dapat dilakukan secara otomatis dengan GitHub Action Workflow [1]. Dapat pula dilakukan secara manual dengan selalu memperbarui berkas-berkas pada folder public dan mengaturnya pada setting GitHub Pages atau melakukan otomatisasi sepenuhnya [2]. Dapat juga dilakukan dengan bantuan Bash script untuk memperbarui, akan tetapi hasilnya agar dapat dilihat perlu dilakukan clone repo suatu blog, instal Hugo, dan isi blog dibaca secara lokal [3]."><meta itemprop="datePublished" content="2022-03-19T08:30:00+07:00" />
+<meta itemprop="dateModified" content="2022-03-20T05:52:00+07:00" />
+<meta itemprop="wordCount" content="2336">
 <meta itemprop="keywords" content="hugo,github,host," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="host hugo site on github"/>
-<meta name="twitter:description" content="Proses deploy situs yang dibuat dengan Hugo sebagai suatu proyek GitHub Pages dapat dilakukan secara otomatis dengan GitHub Action Workflow [1]. Dapat pula dilakukan secara manual dengan selalu memperbarui berkas-berkas pada folder public dan mengaturnya pada setting GitHub Pages atau melakukan otomatisasi semuanya [2]. Dapat juga dilakukan dengan bantuan Bash script untuk memperbarui, akan tetapi hasilnya agar dapat dilihat perlu dilakukan clone, instal Hugo, dan dibaca secara lokal [3]. Terdapat pula cara membuat branch gh-pages yang merupakan orphan branch [4]."/>
+<meta name="twitter:description" content="Proses deploy situs yang dibuat dengan Hugo sebagai suatu proyek GitHub Pages dapat dilakukan secara otomatis dengan GitHub Action Workflow [1]. Dapat pula dilakukan secara manual dengan selalu memperbarui berkas-berkas pada folder public dan mengaturnya pada setting GitHub Pages atau melakukan otomatisasi sepenuhnya [2]. Dapat juga dilakukan dengan bantuan Bash script untuk memperbarui, akan tetapi hasilnya agar dapat dilihat perlu dilakukan clone repo suatu blog, instal Hugo, dan isi blog dibaca secara lokal [3]."/>
 
 	
   </head>
@@ -116,13 +116,13 @@
       
       
       
-      <time class="f6 mv4 dib tracked" datetime="2022-03-19T22:50:00+07:00">Sat, 19 Mar 2022</time>
+      <time class="f6 mv4 dib tracked" datetime="2022-03-20T05:52:00+07:00">Sun, 20 Mar 2022</time>
       
 
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Proses deploy situs yang dibuat dengan Hugo sebagai suatu proyek GitHub Pages dapat dilakukan secara otomatis dengan GitHub Action Workflow [<a href="#r01">1</a>]. Dapat pula dilakukan secara manual dengan selalu memperbarui berkas-berkas pada folder <code>public</code> dan mengaturnya pada setting GitHub Pages atau melakukan otomatisasi semuanya [<a href="#r02">2</a>]. Dapat juga dilakukan dengan bantuan Bash script untuk memperbarui, akan tetapi hasilnya agar dapat dilihat perlu dilakukan clone, instal Hugo, dan dibaca secara lokal [<a href="#r03">3</a>]. Terdapat pula cara membuat branch <code>gh-pages</code> yang merupakan orphan branch [<a href="#r04">4</a>]. Proses host situs yang dibuat dengan Hugo di GitHub tidak terlalu jelas, terutama saat melakukan proses build untuk branch <code>gh-pages</code> [<a href="#r01">1</a>] dan juga telah dicoba bila branch <code>gh-pages</code> merupakan orphan branch [<a href="#r04">4</a>], yang sayangnya keduanya tetap tidak berhasil. Antara tidak terjadi proses build dan deploy atau terjadi tetapi tidak ada halaman yang muncul.</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Proses deploy situs yang dibuat dengan Hugo sebagai suatu proyek GitHub Pages dapat dilakukan secara otomatis dengan GitHub Action Workflow [<a href="#r01">1</a>]. Dapat pula dilakukan secara manual dengan selalu memperbarui berkas-berkas pada folder <code>public</code> dan mengaturnya pada setting GitHub Pages atau melakukan otomatisasi sepenuhnya [<a href="#r02">2</a>]. Dapat juga dilakukan dengan bantuan Bash script untuk memperbarui, akan tetapi hasilnya agar dapat dilihat perlu dilakukan clone repo suatu blog, instal Hugo, dan isi blog dibaca secara lokal [<a href="#r03">3</a>]. Terdapat pula cara membuat branch <code>gh-pages</code> yang merupakan orphan branch [<a href="#r04">4</a>]. Di sini hanya akan dibahas bagaimana berkas-berkas yang dihasilkan Hugo dan kode dengan artikel disimpan dalam repo terpisah di GitHub [<a href="#r02">2</a>] sebagai alternatif dari disimpan dalam repo yang sama akan tetapi pada cabang berbeda [<a href="#r01">1</a>].</p>
 <h2 id="extended-version">extended version</h2>
 <p>Saat melakukan proses build situs secara lokal diperoleh pesan kesalahan</p>
 <pre tabindex="0"><code>L:\home\new-hugo-site&gt;hugo
@@ -250,7 +250,7 @@ L:\HOME\NEW-HUGO-SITE\PUBLIC
             index.html
             index.xml
 </code></pre><p>dalam folder <code>public</code>.</p>
-<h2 id="push-public-and-github-pages">push public and github pages</h2>
+<h2 id="push-public-folder-and-github-pages">push public folder and github pages</h2>
 <p>Berkas-berkas yang terdapat pada folder <code>public</code> akan diunggah ke suatu repo di GitHub dengan fitur GitHub Pages aktif sehingga sekaligus melakukan proses hosting.</p>
 <p>Sebelumnya perlu dibuat dulu repo <code>new-hugo-site</code> melalui <a href="https://github.com/new">https://github.com/new</a>. Tidak perlu diisi berkas apapun.</p>
 <p>Kemudian lakukan langkah-langkah berikut ini.</p>
@@ -530,19 +530,29 @@ remote: Resolving deltas: 100% (14/14), done.
 To https://github.com/dudung/new-hugo-site-src.git
  * [new branch]      master -&gt; master
 branch &#39;master&#39; set up to track &#39;origin/master&#39;.
-</code></pre><p>Sekarang telah terdapat repo untuk menyimpan isi (post) dan kode-kode untuk membuat situs dengan Hugo.</p>
-<h2 id="github-action">github action</h2>
-<p>Langkah terakhir adalah membangun suatu GitHub Action. Hal ini dapat dilakkan dengan mengakses <a href="https://github.com/dudung/new-hugo-site-src/actions/new">https://github.com/dudung/new-hugo-site-src/actions/new</a> dan pilih <strong>set up a workflow yourself</strong>. Dan ganti isi berkas &lsquo;main.yml&rsquo; dengan &lsquo;hugo CI&rsquo; [<a href="#r02">2</a>]. Klik tombol <strong>Start commit</strong> dan lalu <strong>Commit new file</strong>. Berkas <code>./github/workflows/main.yml</code> telah berhasil dibuat.</p>
-<h3 id="push-something">push something</h3>
-<p>Tulisan ini telah diubah sambil proses yang didokumentasikan dilakukan. Dicoba apakah update <code>new-hugo-site-src</code> akan menjalankan GitHub Action yang telah dibuat.</p>
-<p>Masih gagal dan coba ganti</p>
-<pre tabindex="0"><code>secrets.GITHUB_TOKEN
-</code></pre><p>dengan</p>
-<pre tabindex="0"><code>secrets.ACTIONS_DEPLOY_KEY
-</code></pre><p>seperti di [<a href="#r05">5</a>]. Sayangnya masih belum berhasil juga dan</p>
-<pre tabindex="0"><code> Error: Action failed with &#34;not found deploy key or tokens&#34;
-</code></pre><p>adalah pesan kesalahan yang diperoleh.</p>
-<p>external_repository: dudung/new-hugo-site</p>
+</code></pre><p>Sekarang telah terdapat repo untuk menyimpan artikel (post) dan kode-kode (md, html, css, js, toml) untuk membuat situs dengan Hugo.</p>
+<h2 id="update-post">update post</h2>
+<p>Langkah-langkah agar suatu artikel (post) dapat diperbarui adalah sebagai berikut ini.</p>
+<ol>
+<li>Buat artikel baru atau ubah artikel yang telah ada. Simpan secara lokal dalam folder &lsquo;content&rsquo; dan push ke repo kode, yang dalam hal ini adalah <code>new-hugo-site-src</code>.</li>
+</ol>
+<pre tabindex="0"><code>MINGW64 /l/home/new-hugo-site (master)
+$ git add content/posts/some-post.md
+$ git commit -m &#34;A commit message&#34;
+$ git push
+</code></pre><ol start="2">
+<li>Lakukan proses build</li>
+</ol>
+<pre tabindex="0"><code>MINGW64 /l/home/new-hugo-site (master)
+$ hugo
+</code></pre><ol start="3">
+<li>Navigas ke folder &lsquo;public&rsquo; dan push isinya ke repo dengan fitur GitHub Pages telah aktif, yang dalam hal ini adalah <code>new-hugo-site</code></li>
+</ol>
+<pre tabindex="0"><code>$ cd public
+$ git add .
+$ git commit -m &#34;A commit message&#34;
+$ git push
+</code></pre><p>Ketiga langkah di atas dapat dibuat semi-otomatis dengan skrip Bash [<a href="#r03">3</a>] atau otomatis sepenuhnya dengan GitHub Action Workflow [<a href="#r01">1</a>, <a href="#r01">1</a>]. Pada pendekatan pertama langkah 2 dan 3 dipermudah dengan bantuan suatu skrip Bash setelah langkah 1 dijalankan, sedangkan pada pendekatan kedua langkah 2 dan 3 dilakukan secata otomatis setelah langkah pertama dilakukan karena GitHub Action Workflow akan terpicu secara otomatis saat suatu proses push terjadi.</p>
 <h2 id="notes">notes</h2>
 <ol>
 <li><!-- raw HTML omitted --><!-- raw HTML omitted -->&ldquo;Host on GitHub&rdquo;, Hugo, 2 Feb 2022, url <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">https://gohugo.io/hosting-and-deployment/hosting-on-github/</a> [20220319].</li>

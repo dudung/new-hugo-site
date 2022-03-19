@@ -6,14 +6,14 @@
     <description>Recent content in host on new hugo site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 19 Mar 2022 22:50:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/new-hugo-site/tags/host/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Mar 2022 05:52:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/new-hugo-site/tags/host/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>host hugo site on github</title>
       <link>https://dudung.github.io/new-hugo-site/0002/</link>
-      <pubDate>Sat, 19 Mar 2022 22:50:00 +0700</pubDate>
+      <pubDate>Sun, 20 Mar 2022 05:52:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/new-hugo-site/0002/</guid>
-      <description>Proses deploy situs yang dibuat dengan Hugo sebagai suatu proyek GitHub Pages dapat dilakukan secara otomatis dengan GitHub Action Workflow [1]. Dapat pula dilakukan secara manual dengan selalu memperbarui berkas-berkas pada folder public dan mengaturnya pada setting GitHub Pages atau melakukan otomatisasi semuanya [2]. Dapat juga dilakukan dengan bantuan Bash script untuk memperbarui, akan tetapi hasilnya agar dapat dilihat perlu dilakukan clone, instal Hugo, dan dibaca secara lokal [3]. Terdapat pula cara membuat branch gh-pages yang merupakan orphan branch [4].</description>
+      <description>Proses deploy situs yang dibuat dengan Hugo sebagai suatu proyek GitHub Pages dapat dilakukan secara otomatis dengan GitHub Action Workflow [1]. Dapat pula dilakukan secara manual dengan selalu memperbarui berkas-berkas pada folder public dan mengaturnya pada setting GitHub Pages atau melakukan otomatisasi sepenuhnya [2]. Dapat juga dilakukan dengan bantuan Bash script untuk memperbarui, akan tetapi hasilnya agar dapat dilihat perlu dilakukan clone repo suatu blog, instal Hugo, dan isi blog dibaca secara lokal [3].</description>
     </item>
     
   </channel>
