@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sun, 20 Mar 2022 06:13:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/new-hugo-site/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Mar 2022 09:36:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/new-hugo-site/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>add partials mathjax</title>
+      <link>https://dudung.github.io/new-hugo-site/0003/</link>
+      <pubDate>Sun, 20 Mar 2022 09:36:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/new-hugo-site/0003/</guid>
+      <description>[1].
+mathjax.html Suatu berkas mathjax.html berisikan
+&amp;lt;!-- layouts/partials/mathjax.html --&amp;gt; &amp;lt;script&amp;gt; MathJax = { tex: { inlineMath: [[&#39;$&#39;, &#39;$&#39;], [&#39;\\(&#39;, &#39;\\)&#39;]], displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\\[&#39;, &#39;\\]&#39;]], processEscapes: true, processEnvironments: true, tags: &#39;ams&#39;, }, options: { skipHtmlTags: [ &#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39; ] } }; &amp;lt;/script&amp;gt; &amp;lt;script type=&amp;quot;text/javascript&amp;quot; id=&amp;quot;MathJax-script&amp;quot; async src=&amp;quot;https://cdn.jsdelivr.net/npm/\ mathjax@3/es5/tex-mml-chtml.js&amp;quot; &amp;gt; &amp;lt;/script&amp;gt;  disimpan pada folder themes\hugo-theme-codex\layouts\partials yang dalam hal ini karena digunakan theme Hugo [1].
+result Kode $\LaTeX$ berikut</description>
+    </item>
+    
     <item>
       <title>host hugo site on github</title>
       <link>https://dudung.github.io/new-hugo-site/0002/</link>
