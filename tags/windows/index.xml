@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>windows on new hugo site</title>
+    <title>windows on codex</title>
     <link>https://dudung.github.io/new-hugo-site/tags/windows/</link>
-    <description>Recent content in windows on new hugo site</description>
+    <description>Recent content in windows on codex</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>© {year}</copyright>
     <lastBuildDate>Fri, 18 Mar 2022 21:10:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/new-hugo-site/tags/windows/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>install hugo windows 10</title>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on new hugo site</title>
+    <title>Posts on codex</title>
     <link>https://dudung.github.io/new-hugo-site/posts/</link>
-    <description>Recent content in Posts on new hugo site</description>
+    <description>Recent content in Posts on codex</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Mar 2022 05:52:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/new-hugo-site/posts/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© {year}</copyright>
+    <lastBuildDate>Sun, 20 Mar 2022 06:13:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/new-hugo-site/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>host hugo site on github</title>
       <link>https://dudung.github.io/new-hugo-site/0002/</link>
-      <pubDate>Sun, 20 Mar 2022 05:52:00 +0700</pubDate>
+      <pubDate>Sun, 20 Mar 2022 06:13:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/new-hugo-site/0002/</guid>
       <description>Proses deploy situs yang dibuat dengan Hugo sebagai suatu proyek GitHub Pages dapat dilakukan secara otomatis dengan GitHub Action Workflow [1]. Dapat pula dilakukan secara manual dengan selalu memperbarui berkas-berkas pada folder public dan mengaturnya pada setting GitHub Pages atau melakukan otomatisasi sepenuhnya [2]. Dapat juga dilakukan dengan bantuan Bash script untuk memperbarui, akan tetapi hasilnya agar dapat dilihat perlu dilakukan clone repo suatu blog, instal Hugo, dan isi blog dibaca secara lokal [3].</description>
@@ -24,9 +25,9 @@
       <guid>https://dudung.github.io/new-hugo-site/0001/</guid>
       <description>Tulisan ini dibuat setelah instalasi Hugo [1] berhasil dilakukan. Proses membuat situs baru mengikuti informasi yang ada [2].
 version Versi Hugo yang terinstal dapat diperoleh dengan cara berikut ini,
-L:\home&amp;gt;hugo version hugo v0.95.0-9F2E76AF windows/amd64 BuildDate=2022-03-16T14:20:19Z VendorInfo=gohugoio yang memberikan informasi v0.95.0.
+L:\home&amp;gt;hugo version hugo v0.95.0-9F2E76AF windows/amd64 BuildDate=2022-03-16T14:20:19Z VendorInfo=gohugoio  yang memberikan informasi v0.95.0.
 create a new site Suatu situs baru dibuat dengan cara berikut ini.
-L:\home&amp;gt;hugo new site new-hugo-site Congratulations! Your new Hugo site is created in L:\home\new-hugo-site.  Just a few more steps and you&amp;#39;re ready to go:  1.</description>
+L:\home&amp;gt;hugo new site new-hugo-site Congratulations! Your new Hugo site is created in L:\home\new-hugo-site. Just a few more steps and you&#39;re ready to go: 1.</description>
     </item>
     
     <item>
